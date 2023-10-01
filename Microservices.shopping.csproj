@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="BuildingBlock\" />
+    <Folder Include="Services\Catlog\Application\" />
+    <Folder Include="Services\Catlog\Common\" />
+    <Folder Include="Services\Catlog\Domain\" />
+  </ItemGroup>
+
+</Project>
